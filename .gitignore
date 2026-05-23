@@ -1,4 +1,19 @@
-venv/
-.env
+# Python
 __pycache__/
 *.pyc
+venv/
+
+# Environment variables
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
